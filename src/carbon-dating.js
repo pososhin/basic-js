@@ -17,7 +17,7 @@ const HALF_LIFE_PERIOD = 5730;
  * dateSample('WOOT!') => false
  *
  */
-function dateSample(/* sampleActivity */) {
+function dateSample(a) {
   if (a === undefined);
   if (typeof a != "string" || a === undefined) return false;
   let activity = Number(a) || 0;
